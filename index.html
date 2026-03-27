@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>$500 Gift Card Steps</title>
+  <title>$500 Reward Steps</title>
 
   <style>
     :root {
@@ -12,7 +12,7 @@
       --text: #111111;
       --muted: #6b6b6b;
 
-      /* same green style as your approved version */
+      /* approved green */
       --accent: #00754a;
       --accent-2: #00a862;
 
@@ -23,7 +23,7 @@
 
     body {
       margin: 0;
-      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: Inter, system-ui, sans-serif;
       background: var(--bg);
       color: var(--text);
       padding: 16px;
@@ -56,7 +56,6 @@
       padding: 6px 10px;
       border-radius: 999px;
       background: rgba(0,0,0,0.05);
-      color: var(--text);
     }
 
     .tag {
@@ -84,62 +83,33 @@
     }
 
     h1 {
-      font-size: 1.75rem;
-      line-height: 1.12;
+      font-size: 1.7rem;
+      line-height: 1.1;
       margin: 0;
-      letter-spacing: -0.03em;
+      letter-spacing: -0.02em;
     }
 
-    .accent-line {
+    .highlight {
       color: var(--accent-2);
     }
 
     .sub {
       margin-top: 10px;
       color: var(--muted);
-      font-size: 0.96rem;
+      font-size: 0.95rem;
       line-height: 1.45;
-    }
-
-    .hero-box {
-      margin-top: 16px;
-      padding: 16px;
-      border-radius: 16px;
-      background: linear-gradient(135deg, rgba(0,117,74,0.08), rgba(0,168,98,0.12));
-      border: 1px solid rgba(0,117,74,0.12);
-    }
-
-    .hero-box strong {
-      display: block;
-      font-size: 1rem;
-      margin-bottom: 6px;
-    }
-
-    .hero-box p {
-      margin: 0;
-      font-size: 0.9rem;
-      color: var(--muted);
-      line-height: 1.45;
-    }
-
-    .steps-title {
-      margin-top: 18px;
-      margin-bottom: 10px;
-      font-size: 0.92rem;
-      font-weight: 800;
-      color: var(--text);
     }
 
     .steps {
+      margin-top: 18px;
       display: grid;
       gap: 10px;
     }
 
     .step {
       display: grid;
-      grid-template-columns: 30px 1fr;
+      grid-template-columns: 28px 1fr;
       gap: 10px;
-      align-items: start;
       padding: 12px;
       border-radius: 14px;
       background: #fafafa;
@@ -155,9 +125,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 0.78rem;
+      font-size: 0.75rem;
       font-weight: 800;
-      margin-top: 1px;
     }
 
     .step strong {
@@ -170,36 +139,13 @@
       margin: 0;
       font-size: 0.88rem;
       color: var(--muted);
-      line-height: 1.4;
-    }
-
-    .mini {
-      margin-top: 14px;
-      padding: 12px;
-      border-radius: 14px;
-      background: #fafafa;
-      border: 1px solid var(--border);
-    }
-
-    .mini strong {
-      display: block;
-      font-size: 0.92rem;
-      margin-bottom: 4px;
-    }
-
-    .mini p {
-      margin: 0;
-      font-size: 0.86rem;
-      color: var(--muted);
-      line-height: 1.4;
     }
 
     .precta {
       margin-top: 16px;
       text-align: center;
       font-weight: 700;
-      font-size: 0.92rem;
-      color: var(--text);
+      font-size: 0.9rem;
     }
 
     .cta {
@@ -213,7 +159,7 @@
       text-decoration: none;
       color: white;
       background: linear-gradient(90deg, var(--accent), var(--accent-2));
-      box-shadow: 0 10px 24px rgba(0,168,98,0.24);
+      box-shadow: 0 10px 24px rgba(0,168,98,0.25);
       font-size: 1rem;
     }
 
@@ -225,11 +171,6 @@
       line-height: 1.4;
     }
 
-    @media (max-width: 420px) {
-      body { padding: 12px; }
-      .card { padding: 16px; }
-      h1 { font-size: 1.55rem; }
-    }
   </style>
 </head>
 
@@ -239,48 +180,42 @@
 
       <div class="topbar">
         <span class="status">Step 1 of 2</span>
-        <span class="tag">$500 Wingstop Gift Card</span>
+        <span class="tag">$500 Wingstop Reward</span>
       </div>
 
       <div class="progress"><span></span></div>
 
       <h1>
-        Unlock your <span class="accent-line">$500 Wingstop Gift Card</span>
+        Unlock your <span class="highlight">$500 Wingstop reward</span>
       </h1>
 
       <p class="sub">
-        Follow the steps below so you know what to expect before continuing.
+        Follow the steps below to understand what’s required before continuing.
       </p>
 
-      <div class="hero-box">
-        <strong>Here’s how to unlock your reward</strong>
-        <p>Complete the required steps on the next page and make sure your details are entered accurately.</p>
-      </div>
-
-      <div class="steps-title">Steps to continue</div>
-
       <div class="steps">
+
         <div class="step">
           <div class="step-num">1</div>
           <div>
             <strong>Continue to the next step</strong>
-            <p>Tap the button below to access the offer page.</p>
+            <p>Access the offer page to begin the process.</p>
           </div>
         </div>
 
         <div class="step">
           <div class="step-num">2</div>
           <div>
-            <strong>Enter a valid email address</strong>
-            <p>This is used for progress-related updates and next-step communication.</p>
+            <strong>Enter your email and details</strong>
+            <p>Make sure your information is accurate.</p>
           </div>
         </div>
 
         <div class="step">
           <div class="step-num">3</div>
           <div>
-            <strong>Complete the required questions</strong>
-            <p>Make sure the information you provide is accurate and complete.</p>
+            <strong>Complete required questions</strong>
+            <p>Answer all prompts fully to continue.</p>
           </div>
         </div>
 
@@ -288,32 +223,28 @@
           <div class="step-num">4</div>
           <div>
             <strong>Complete 4–5 required deals</strong>
-            <p>These may include app installs, surveys, or trial offers.</p>
+            <p>Deals may include app installs, surveys, or trial offers.</p>
           </div>
         </div>
 
         <div class="step">
           <div class="step-num">5</div>
           <div>
-            <strong>Unlock your reward path</strong>
-            <p>After completing the required steps, you can move forward in the process.</p>
+            <strong>Continue through the reward path</strong>
+            <p>Progress depends on completing all required steps.</p>
           </div>
         </div>
+
       </div>
 
-      <div class="mini">
-        <strong>What happens next?</strong>
-        <p>You’ll continue to the next page where you can begin the required steps.</p>
-      </div>
-
-      <p class="precta">Tap below to unlock the next step.</p>
+      <p class="precta">Tap below to continue and unlock the next step.</p>
 
       <a class="cta" href="https://giftclick.org/aff_c?offer_id=1541&aff_id=170653">
-        Unlock Now →
+        Continue →
       </a>
 
       <p class="micro">
-        Eligibility and completion requirements apply.
+        Eligibility and completion requirements apply. Results may vary.
       </p>
 
     </section>
