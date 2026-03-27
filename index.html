@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>$500 Gift Card Steps</title>
+
+  <style>
+    :root {
+      --bg: #0e0e0e;
+      --card: #171717;
+      --text: #ffffff;
+      --muted: #b5b5b5;
+      --accent: #6cc24a;
+      --accent-dark: #4fa934;
+      --border: rgba(255,255,255,0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 16px;
+    }
+
+    .wrap {
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 20px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .status {
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.05);
+    }
+
+    .tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--accent);
+      background: rgba(108,194,74,0.1);
+      padding: 6px 10px;
+      border-radius: 999px;
+    }
+
+    .progress {
+      height: 6px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 999px;
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+
+    .progress span {
+      display: block;
+      height: 100%;
+      width: 50%;
+      background: linear-gradient(90deg, var(--accent-dark), var(--accent));
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    .sub {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .steps {
+      margin-top: 16px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: 26px 1fr;
+      gap: 10px;
+      padding: 12px;
+      border-radius: 12px;
+      background: #1f1f1f;
+      border: 1px solid var(--border);
+    }
+
+    .check {
+      width: 22px;
+      height: 22px;
+      border-radius: 999px;
+      background: rgba(108,194,74,0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: var(--accent);
+    }
+
+    .step strong {
+      font-size: 0.95rem;
+    }
+
+    .step p {
+      margin: 0;
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+
+    .mini {
+      margin-top: 14px;
+      padding: 12px;
+      border-radius: 12px;
+      background: #1f1f1f;
+      border: 1px solid var(--border);
+    }
+
+    .mini strong {
+      font-size: 0.9rem;
+    }
+
+    .mini p {
+      margin: 4px 0 0;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .precta {
+      margin-top: 14px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .cta {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+      text-align: center;
+      padding: 15px;
+      border-radius: 12px;
+      font-weight: 800;
+      text-decoration: none;
+      color: black;
+      background: linear-gradient(90deg, var(--accent-dark), var(--accent));
+    }
+
+    .micro {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+    <section class="card">
+
+      <div class="topbar">
+        <span class="status">Step 1 of 2</span>
+        <span class="tag">$500 Wingstop Gift Card</span>
+      </div>
+
+      <div class="progress"><span></span></div>
+
+      <h1>
+        Complete the steps below to receive your $500 Wingstop Gift Card.
+      </h1>
+
+      <p class="sub">
+        This quick page explains what to expect on the next step.
+      </p>
+
+      <div class="steps">
+
+        <div class="step">
+          <div class="check">✓</div>
+          <div>
+            <strong>Complete 3–5 required deals</strong>
+            <p>These may include app installs, surveys, or trial offers.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="check">✓</div>
+          <div>
+            <strong>Use a valid email address</strong>
+            <p>This is used for progress-related updates and next steps.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="check">✓</div>
+          <div>
+            <strong>Must be 18+ to participate</strong>
+            <p>Eligibility requirements apply and paths may vary.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mini">
+        <strong>What happens next?</strong>
+        <p>You’ll continue to the next page where you can begin the required steps.</p>
+      </div>
+
+      <p class="precta">Tap below to continue and start the steps.</p>
+
+      <!-- 🔴 PUT YOUR TRACKING LINK HERE -->
+      <a class="cta" href="https://linkthem.net/aff_c?offer_id=1541&aff_id=170653">
+        Continue to Next Step →
+      </a>
+
+      <p class="micro">
+        Eligibility and completion requirements apply.
+      </p>
+
+    </section>
+  </main>
+</body>
+</html>
